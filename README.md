@@ -1,27 +1,32 @@
-# Windsurf Logo Generator
+# AI Image Generator
 
-A Next.js application that generates unique and professional logos for windsurfing brands using DALL-E AI.
+A modern, open-source web application that generates stunning images using DALL-E 3 AI. Built with Next.js and featuring a beautiful dark mode interface.
 
 ## Features
 
-- Generate custom logos with brand name and tagline
-- Specify preferred colors for your logo
-- Modern, responsive UI built with Next.js and Tailwind CSS
-- Integration with DALL-E for AI-powered logo generation
+- Generate high-quality images using DALL-E 3
+- Bring your own OpenAI API key (securely stored in your browser)
+- Beautiful dark/light mode
+- Fully responsive design
+- Multiple download options
+- Sample prompts to get you started
+- Multiple image sizes and quality options
 
-## Prerequisites
+## Getting Started
 
-Before running this application, make sure you have:
+This is a free and open-source project that anyone can use. You'll need your own OpenAI API key to generate images.
+
+### Prerequisites
 
 1. Node.js installed (v18 or later)
-2. An OpenAI API key
+2. An OpenAI API key (Get one at https://platform.openai.com/api-keys)
 
-## Setup
+### Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd windsurf-logo-generator
+git clone https://github.com/yourusername/ai-image-generator.git
+cd ai-image-generator
 ```
 
 2. Install dependencies:
@@ -29,40 +34,63 @@ cd windsurf-logo-generator
 npm install
 ```
 
-3. Create a `.env.local` file in the root directory and add your OpenAI API key:
-```
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### API Key Security
+
+Your security is our priority:
+- API keys are stored securely in your browser's local storage
+- Keys never leave your browser or get sent to any server except OpenAI
+- You can easily clear your API key at any time
+- No server-side storage or tracking
 
 ## Usage
 
-1. Enter your brand name (required)
-2. Add an optional tagline
-3. Specify preferred colors (optional)
-4. Click "Generate Logo" to create your custom logo
-5. The generated logo will appear below the form
-6. Right-click and save the logo image to download it
+1. Enter your OpenAI API key (stored securely in your browser)
+2. Write a descriptive prompt or use one of our samples
+3. Choose your preferred image size and quality
+4. Click "Generate Image"
+5. Download your image or open it in a new tab
 
 ## Technologies Used
 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
-- OpenAI API (DALL-E)
+- OpenAI API (DALL-E 3)
 - React Hook Form
-- Zod for form validation
+- Zod for validation
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This project is open source and contributions are welcome! Feel free to:
+- Submit bug reports
+- Propose new features
+- Create pull requests
+- Share your feedback
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is free to use and is licensed under the MIT License. See the LICENSE file for details.
+
+## Quick Tips
+
+- Use detailed, descriptive prompts for better results
+- Try different image sizes for various use cases
+- Experiment with both standard and HD quality
+- Check out the sample prompts for inspiration
+
+## Links
+
+- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Report an Issue](https://github.com/yourusername/ai-image-generator/issues)
+
+---
+
+Made with ❤️ by the open-source community
